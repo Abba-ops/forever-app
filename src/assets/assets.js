@@ -1,0 +1,930 @@
+import p_img1 from "./p_img1.png";
+import p_img2_1 from "./p_img2_1.png";
+import p_img2_2 from "./p_img2_2.png";
+import p_img2_3 from "./p_img2_3.png";
+import p_img2_4 from "./p_img2_4.png";
+import p_img3 from "./p_img3.png";
+import p_img4 from "./p_img4.png";
+import p_img5 from "./p_img5.png";
+import p_img6 from "./p_img6.png";
+import p_img7 from "./p_img7.png";
+import p_img8 from "./p_img8.png";
+import p_img9 from "./p_img9.png";
+import p_img10 from "./p_img10.png";
+import p_img11 from "./p_img11.png";
+import p_img12 from "./p_img12.png";
+import p_img13 from "./p_img13.png";
+import p_img14 from "./p_img14.png";
+import p_img15 from "./p_img15.png";
+import p_img16 from "./p_img16.png";
+import p_img17 from "./p_img17.png";
+import p_img18 from "./p_img18.png";
+import p_img19 from "./p_img19.png";
+import p_img20 from "./p_img20.png";
+import p_img21 from "./p_img21.png";
+import p_img22 from "./p_img22.png";
+import p_img23 from "./p_img23.png";
+import p_img24 from "./p_img24.png";
+import p_img25 from "./p_img25.png";
+import p_img26 from "./p_img26.png";
+import p_img27 from "./p_img27.png";
+import p_img28 from "./p_img28.png";
+import p_img29 from "./p_img29.png";
+import p_img30 from "./p_img30.png";
+import p_img31 from "./p_img31.png";
+import p_img32 from "./p_img32.png";
+import p_img33 from "./p_img33.png";
+import p_img34 from "./p_img34.png";
+import p_img35 from "./p_img35.png";
+import p_img36 from "./p_img36.png";
+import p_img37 from "./p_img37.png";
+import p_img38 from "./p_img38.png";
+import p_img39 from "./p_img39.png";
+import p_img40 from "./p_img40.png";
+import p_img41 from "./p_img41.png";
+import p_img42 from "./p_img42.png";
+import p_img43 from "./p_img43.png";
+import p_img44 from "./p_img44.png";
+import p_img45 from "./p_img45.png";
+import p_img46 from "./p_img46.png";
+import p_img47 from "./p_img47.png";
+import p_img48 from "./p_img48.png";
+import p_img49 from "./p_img49.png";
+import p_img50 from "./p_img50.png";
+import p_img51 from "./p_img51.png";
+import p_img52 from "./p_img52.png";
+
+import logo from "./logo.png";
+import hero_img from "./hero_img.png";
+import cart_icon from "./cart_icon.png";
+import bin_icon from "./bin_icon.png";
+import dropdown_icon from "./dropdown_icon.png";
+import exchange_icon from "./exchange_icon.png";
+import profile_icon from "./profile_icon.png";
+import quality_icon from "./quality_icon.png";
+import search_icon from "./search_icon.png";
+import star_dull_icon from "./star_dull_icon.png";
+import star_icon from "./star_icon.png";
+import support_img from "./support_img.png";
+import menu_icon from "./menu_icon.png";
+import about_img from "./about_img.png";
+import contact_img from "./contact_img.png";
+import razorpay_logo from "./razorpay_logo.png";
+import stripe_logo from "./stripe_logo.png";
+import cross_icon from "./cross_icon.png";
+
+export const assets = {
+  logo,
+  hero_img,
+  cart_icon,
+  dropdown_icon,
+  exchange_icon,
+  profile_icon,
+  quality_icon,
+  search_icon,
+  star_dull_icon,
+  star_icon,
+  bin_icon,
+  support_img,
+  menu_icon,
+  about_img,
+  contact_img,
+  razorpay_logo,
+  stripe_logo,
+  cross_icon,
+};
+
+export const products = [
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "1",
+    name: "Women Round Neck Cotton Top",
+    shortDesc: "Comfortable women's cotton top with a round neck.",
+    longDesc:
+      "A lightweight, knitted pullover shirt for women, with a close-fitting round neckline and short sleeves, perfect for casual or layered looks.",
+    price: 100,
+    image: [p_img1],
+    category: "Women",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L"],
+    date: 1716634345448,
+    bestseller: true,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "2",
+    name: "Men Round Neck Pure Cotton T-shirt",
+    shortDesc: "Men's pure cotton t-shirt with a classic round neck.",
+    longDesc:
+      "A soft and breathable cotton t-shirt for men, designed with a close-fitting round neckline and short sleeves, suitable for everyday wear.",
+    price: 200,
+    image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
+    category: "Men",
+    subCategory: "Top wear",
+    sizes: ["M", "L", "XL"],
+    date: 1716621345448,
+    bestseller: true,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "3",
+    name: "Girls Round Neck Cotton Top",
+    shortDesc: "Round neck cotton top for girls.",
+    longDesc:
+      "A comfortable and stylish cotton top for girls, featuring a round neckline and short sleeves, great for daily casual wear.",
+    price: 220,
+    image: [p_img3],
+    category: "Kids",
+    subCategory: "Top wear",
+    sizes: ["S", "L", "XL"],
+    date: 1716234545448,
+    bestseller: true,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "4",
+    name: "Men Round Neck Pure Cotton T-shirt",
+    shortDesc: "Classic men's round neck cotton t-shirt.",
+    longDesc:
+      "A lightweight cotton t-shirt for men with a round neckline and short sleeves, perfect for comfortable and casual outfits.",
+    price: 110,
+    image: [p_img4],
+    category: "Men",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "XXL"],
+    date: 1716621345448,
+    bestseller: true,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "5",
+    name: "Women Round Neck Cotton Top",
+    shortDesc: "Casual cotton top for women.",
+    longDesc:
+      "A trendy and soft cotton top for women, featuring a round neckline and short sleeves, ideal for layering or wearing on its own.",
+    price: 130,
+    image: [p_img5],
+    category: "Women",
+    subCategory: "Top wear",
+    sizes: ["M", "L", "XL"],
+    date: 1716622345448,
+    bestseller: true,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "6",
+    name: "Girls Round Neck Cotton Top",
+    shortDesc: "Comfortable cotton top for girls.",
+    longDesc:
+      "This girls' cotton top is soft and comfortable, with a round neckline and short sleeves, making it perfect for any casual occasion.",
+    price: 140,
+    image: [p_img6],
+    category: "Kids",
+    subCategory: "Top wear",
+    sizes: ["S", "L", "XL"],
+    date: 1716623423448,
+    bestseller: true,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "7",
+    name: "Men Tapered Fit Flat-Front Trousers",
+    shortDesc: "Men's tapered fit trousers with a flat-front design.",
+    longDesc:
+      "Stylish and modern flat-front trousers for men, featuring a tapered fit that offers both comfort and a smart, clean look for formal or casual settings.",
+    price: 190,
+    image: [p_img7],
+    category: "Men",
+    subCategory: "Bottom wear",
+    sizes: ["S", "L", "XL"],
+    date: 1716621542448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "8",
+    name: "Men Round Neck Pure Cotton T-shirt",
+    shortDesc: "Men's round neck cotton t-shirt.",
+    longDesc:
+      "A lightweight, breathable cotton t-shirt for men, designed with a classic round neckline and short sleeves, perfect for daily wear.",
+    price: 140,
+    image: [p_img8],
+    category: "Men",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716622345448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "9",
+    name: "Girls Round Neck Cotton Top",
+    shortDesc: "Cotton top for girls with a round neck.",
+    longDesc:
+      "A soft cotton top for girls with a round neckline and short sleeves, suitable for casual occasions or layering under jackets.",
+    price: 100,
+    image: [p_img9],
+    category: "Kids",
+    subCategory: "Top wear",
+    sizes: ["M", "L", "XL"],
+    date: 1716621235448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "10",
+    name: "Men Tapered Fit Flat-Front Trousers",
+    shortDesc: "Flat-front tapered fit trousers for men.",
+    longDesc:
+      "These men's flat-front trousers feature a tapered fit for a clean and polished appearance, ideal for both casual and semi-formal wear.",
+    price: 110,
+    image: [p_img10],
+    category: "Men",
+    subCategory: "Bottom wear",
+    sizes: ["S", "L", "XL"],
+    date: 1716622235448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "11",
+    name: "Men Round Neck Pure Cotton T-shirt",
+    shortDesc: "Classic cotton T-shirt for men with a comfortable fit.",
+    longDesc:
+      "This men's round neck pure cotton T-shirt provides the perfect combination of comfort and style. Ideal for casual wear, it's designed with soft, breathable fabric, short sleeves, and a round neckline for a relaxed fit, suitable for all-day comfort.",
+    price: 120,
+    image: [p_img11],
+    category: "Men",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L"],
+    date: 1716623345448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "12",
+    name: "Men Round Neck Pure Cotton T-shirt",
+    shortDesc: "Men's casual round neck T-shirt for everyday wear.",
+    longDesc:
+      "This versatile men's round neck cotton T-shirt is crafted from soft, breathable cotton, offering a snug fit and excellent durability. Perfect for layering or wearing solo, it features a timeless design ideal for any casual outfit.",
+    price: 150,
+    image: [p_img12],
+    category: "Men",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716624445448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "13",
+    name: "Women Round Neck Cotton Top",
+    shortDesc: "Stylish and comfortable cotton top for women.",
+    longDesc:
+      "This women's round neck cotton top blends comfort and style, made with soft fabric and featuring a simple, elegant design. It offers a perfect fit with short sleeves and a breathable feel, making it great for casual and everyday use.",
+    price: 130,
+    image: [p_img13],
+    category: "Women",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716625545448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "14",
+    name: "Boy Round Neck Pure Cotton T-shirt",
+    shortDesc: "Comfortable and durable cotton T-shirt for boys.",
+    longDesc:
+      "This boys' round neck pure cotton T-shirt is designed for everyday comfort and durability. Made from breathable cotton, it provides a soft, snug fit for active days and casual wear. The classic design suits all occasions, from school to playtime.",
+    price: 160,
+    image: [p_img14],
+    category: "Kids",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716626645448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "15",
+    name: "Men Tapered Fit Flat-Front Trousers",
+    shortDesc: "Stylish tapered fit trousers for men.",
+    longDesc:
+      "These men’s tapered fit flat-front trousers offer a modern style with a streamlined silhouette. Made from durable fabric, they provide a comfortable fit for casual and formal occasions alike. The flat-front design adds a touch of elegance, perfect for versatile styling.",
+    price: 140,
+    image: [p_img15],
+    category: "Men",
+    subCategory: "Bottom wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716627745448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "16",
+    name: "Girls Round Neck Cotton Top",
+    shortDesc: "Cute and comfy cotton top for girls.",
+    longDesc:
+      "This round neck cotton top for girls is both stylish and comfortable, designed with soft fabric that is perfect for playtime or casual outings. It features a simple design that pairs easily with different outfits, offering flexibility and style for every season.",
+    price: 170,
+    image: [p_img16],
+    category: "Kids",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716628845448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "17",
+    name: "Men Tapered Fit Flat-Front Trousers",
+    shortDesc: "Classic tapered fit trousers for men.",
+    longDesc:
+      "These tapered fit flat-front trousers for men offer a sleek, modern look with high-quality tailoring. Made for comfort and style, they are perfect for both casual and formal settings, providing a versatile addition to any wardrobe.",
+    price: 150,
+    image: [p_img17],
+    category: "Men",
+    subCategory: "Bottom wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716629945448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "18",
+    name: "Boy Round Neck Pure Cotton T-shirt",
+    shortDesc: "Soft and stylish round neck T-shirt for boys.",
+    longDesc:
+      "This pure cotton T-shirt for boys features a soft, breathable fabric with a classic round neck design. The short-sleeved shirt is ideal for casual everyday wear, providing comfort and durability for all occasions.",
+    price: 180,
+    image: [p_img18],
+    category: "Kids",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716631045448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "19",
+    name: "Boy Round Neck Pure Cotton T-shirt",
+    shortDesc: "Classic and comfortable T-shirt for boys.",
+    longDesc:
+      "This boys' round neck T-shirt is made from high-quality cotton, providing a comfortable and durable option for daily wear. Its classic design and soft fabric make it a great choice for casual and active occasions.",
+    price: 160,
+    image: [p_img19],
+    category: "Kids",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716632145448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "20",
+    name: "Women Palazzo Pants with Waist Belt",
+    shortDesc: "Elegant palazzo pants for women with a waist belt.",
+    longDesc:
+      "These women's palazzo pants feature a flattering wide-leg design and an adjustable waist belt for added style and comfort. Made from lightweight, breathable fabric, they are perfect for both casual and semi-formal occasions, offering a chic and comfortable option for any outfit.",
+    price: 190,
+    image: [p_img20],
+    category: "Women",
+    subCategory: "Bottom wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716633245448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "21",
+    name: "Women Zip-Front Relaxed Fit Jacket",
+    shortDesc: "Lightweight and stylish zip-front jacket.",
+    longDesc:
+      "This Women Zip-Front Relaxed Fit Jacket is perfect for layering in colder weather. It features a relaxed fit, ensuring comfort while maintaining a fashionable look.",
+    price: 170,
+    image: [p_img21],
+    category: "Women",
+    subCategory: "Winter wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716634345448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "22",
+    name: "Women Palazzo Pants with Waist Belt",
+    shortDesc: "Chic palazzo pants with a stylish waist belt.",
+    longDesc:
+      "These Women Palazzo Pants are designed for elegance and comfort. The lightweight fabric allows for breathability, while the waist belt adds a flattering touch to your outfit.",
+    price: 200,
+    image: [p_img22],
+    category: "Women",
+    subCategory: "Bottom wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716635445448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "23",
+    name: "Boy Round Neck Pure Cotton T-shirt",
+    shortDesc: "Soft cotton t-shirt for everyday wear.",
+    longDesc:
+      "This Boy Round Neck Pure Cotton T-shirt offers a comfortable fit with soft cotton fabric, making it perfect for playtime or casual outings.",
+    price: 180,
+    image: [p_img23],
+    category: "Kids",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716636545448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "24",
+    name: "Boy Round Neck Pure Cotton T-shirt",
+    shortDesc: "Classic round neck t-shirt for boys.",
+    longDesc:
+      "Our Boy Round Neck Pure Cotton T-shirt is ideal for layering or wearing on its own. The soft fabric ensures comfort all day long.",
+    price: 210,
+    image: [p_img24],
+    category: "Kids",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716637645448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "25",
+    name: "Girls Round Neck Cotton Top",
+    shortDesc: "Comfortable cotton top for girls.",
+    longDesc:
+      "This Girls Round Neck Cotton Top is designed for style and comfort. The breathable fabric is perfect for everyday wear.",
+    price: 190,
+    image: [p_img25],
+    category: "Kids",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716638745448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "26",
+    name: "Women Zip-Front Relaxed Fit Jacket",
+    shortDesc: "Fashionable zip-front jacket for women.",
+    longDesc:
+      "This Women Zip-Front Relaxed Fit Jacket combines style and functionality. It's perfect for layering over any outfit for added warmth.",
+    price: 220,
+    image: [p_img26],
+    category: "Women",
+    subCategory: "Winter wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716639845448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "27",
+    name: "Girls Round Neck Cotton Top",
+    shortDesc: "Trendy round neck top for girls.",
+    longDesc:
+      "Our Girls Round Neck Cotton Top is stylish and comfortable, making it a great choice for school or playdates.",
+    price: 200,
+    image: [p_img27],
+    category: "Kids",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716640945448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "28",
+    name: "Men Slim Fit Relaxed Denim Jacket",
+    shortDesc: "Stylish denim jacket with a relaxed fit.",
+    longDesc:
+      "This Men Slim Fit Relaxed Denim Jacket is a versatile addition to any wardrobe. It's perfect for both casual and semi-formal occasions.",
+    price: 230,
+    image: [p_img28],
+    category: "Men",
+    subCategory: "Winter wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716642045448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "29",
+    name: "Women Round Neck Cotton Top",
+    shortDesc: "Casual round neck top for women.",
+    longDesc:
+      "Our Women Round Neck Cotton Top is designed for comfort and style. Perfect for everyday wear, this top can be easily paired with any outfit.",
+    price: 210,
+    image: [p_img29],
+    category: "Women",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716643145448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "30",
+    name: "Girls Round Neck Cotton Top",
+    shortDesc: "Adorable round neck top for girls.",
+    longDesc:
+      "This Girls Round Neck Cotton Top is perfect for layering or wearing on its own. The comfortable fit makes it ideal for any activity.",
+    price: 240,
+    image: [p_img30],
+    category: "Kids",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716644245448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "31",
+    name: "Men Round Neck Pure Cotton T-shirt",
+    shortDesc: "Essential round neck t-shirt for men.",
+    longDesc:
+      "This Men Round Neck Pure Cotton T-shirt is a staple for any wardrobe. The soft cotton fabric ensures all-day comfort.",
+    price: 220,
+    image: [p_img31],
+    category: "Men",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716645345448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "32",
+    name: "Men Round Neck Pure Cotton T-shirt",
+    shortDesc: "Classic cotton t-shirt for men.",
+    longDesc:
+      "Our Men Round Neck Pure Cotton T-shirt is designed for comfort and versatility, perfect for any casual occasion.",
+    price: 250,
+    image: [p_img32],
+    category: "Men",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716646445448,
+  },
+
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "33",
+    name: "Girls Round Neck Cotton Top",
+    shortDesc: "A lightweight pullover shirt.",
+    longDesc:
+      "Close-fitting with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+    price: 230,
+    image: [p_img33],
+    category: "Kids",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716647545448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "34",
+    name: "Women Round Neck Cotton Top",
+    shortDesc: "A lightweight pullover shirt.",
+    longDesc:
+      "Close-fitting with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+    price: 260,
+    image: [p_img34],
+    category: "Women",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716648645448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "35",
+    name: "Women Zip-Front Relaxed Fit Jacket",
+    shortDesc: "A stylish relaxed fit jacket.",
+    longDesc:
+      "Lightweight with a zip front, perfect for layering during cooler weather.",
+    price: 240,
+    image: [p_img35],
+    category: "Women",
+    subCategory: "Winter wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716649745448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "36",
+    name: "Women Zip-Front Relaxed Fit Jacket",
+    shortDesc: "A stylish relaxed fit jacket.",
+    longDesc:
+      "Lightweight with a zip front, perfect for layering during cooler weather.",
+    price: 270,
+    image: [p_img36],
+    category: "Women",
+    subCategory: "Winter wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716650845448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "37",
+    name: "Women Round Neck Cotton Top",
+    shortDesc: "A lightweight pullover shirt.",
+    longDesc:
+      "Close-fitting with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+    price: 250,
+    image: [p_img37],
+    category: "Women",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716651945448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "38",
+    name: "Men Round Neck Pure Cotton T-shirt",
+    shortDesc: "A lightweight pure cotton t-shirt.",
+    longDesc: "Close-fitting with a round neckline, perfect for casual wear.",
+    price: 280,
+    image: [p_img38],
+    category: "Men",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716653045448,
+    bestseller: false,
+  },
+
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "39",
+    name: "Men Printed Plain Cotton Shirt",
+    shortDesc: "A stylish printed cotton shirt.",
+    longDesc: "Lightweight with a classic fit, ideal for casual outings.",
+    price: 260,
+    image: [p_img39],
+    category: "Men",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716654145448,
+    bestseller: false,
+  },
+
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "40",
+    name: "Men Slim Fit Relaxed Denim Jacket",
+    shortDesc: "A trendy denim jacket.",
+    longDesc: "Slim fit with a relaxed style, perfect for layering.",
+    price: 290,
+    image: [p_img40],
+    category: "Men",
+    subCategory: "Winter wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716655245448,
+    bestseller: false,
+  },
+
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "41",
+    name: "Men Round Neck Pure Cotton T-shirt",
+    shortDesc: "A lightweight pure cotton t-shirt.",
+    longDesc: "Close-fitting with a round neckline, perfect for casual wear.",
+    price: 270,
+    image: [p_img41],
+    category: "Men",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716656345448,
+    bestseller: false,
+  },
+
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "42",
+    name: "Boy Round Neck Pure Cotton T-shirt",
+    shortDesc: "A lightweight pure cotton t-shirt.",
+    longDesc: "Close-fitting with a round neckline, perfect for kids.",
+    price: 300,
+    image: [p_img42],
+    category: "Kids",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716657445448,
+    bestseller: false,
+  },
+
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "43",
+    name: "Kid Tapered Slim Fit Trouser",
+    shortDesc: "Stylish tapered slim fit trousers.",
+    longDesc: "Perfect for casual or semi-formal occasions.",
+    price: 280,
+    image: [p_img43],
+    category: "Kids",
+    subCategory: "Bottom wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716658545448,
+    bestseller: false,
+  },
+
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "44",
+    name: "Women Zip-Front Relaxed Fit Jacket",
+    shortDesc: "A stylish relaxed fit jacket.",
+    longDesc:
+      "Lightweight with a zip front, perfect for layering during cooler weather.",
+    price: 310,
+    image: [p_img44],
+    category: "Women",
+    subCategory: "Winter wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716659645448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "45",
+    name: "Men Slim Fit Relaxed Denim Jacket",
+    shortDesc: "A trendy denim jacket.",
+    longDesc: "Slim fit with a relaxed style, perfect for layering.",
+    price: 290,
+    image: [p_img45],
+    category: "Men",
+    subCategory: "Winter wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716660745448,
+    bestseller: false,
+  },
+
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "46",
+    name: "Men Slim Fit Relaxed Denim Jacket",
+    shortDesc: "A trendy denim jacket.",
+    longDesc: "Slim fit with a relaxed style, perfect for layering.",
+    price: 320,
+    image: [p_img46],
+    category: "Men",
+    subCategory: "Winter wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716661845448,
+    bestseller: false,
+  },
+
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "47",
+    name: "Kid Tapered Slim Fit Trouser",
+    shortDesc: "Stylish tapered slim fit trousers.",
+    longDesc: "Perfect for casual or semi-formal occasions.",
+    price: 300,
+    image: [p_img47],
+    category: "Kids",
+    subCategory: "Bottom wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716662945448,
+    bestseller: false,
+  },
+
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "48",
+    name: "Men Slim Fit Relaxed Denim Jacket",
+    shortDesc: "A trendy denim jacket.",
+    longDesc: "Slim fit with a relaxed style, perfect for layering.",
+    price: 330,
+    image: [p_img48],
+    category: "Men",
+    subCategory: "Winter wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716664045448,
+    bestseller: false,
+  },
+
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "49",
+    name: "Kid Tapered Slim Fit Trouser",
+    shortDesc: "Stylish tapered slim fit trousers.",
+    longDesc: "Perfect for casual or semi-formal occasions.",
+    price: 310,
+    image: [p_img49],
+    category: "Kids",
+    subCategory: "Bottom wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716665145448,
+    bestseller: false,
+  },
+
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "50",
+    name: "Kid Tapered Slim Fit Trouser",
+    shortDesc: "Stylish tapered slim fit trousers.",
+    longDesc: "Perfect for casual or semi-formal occasions.",
+    price: 340,
+    image: [p_img50],
+    category: "Kids",
+    subCategory: "Bottom wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716666245448,
+    bestseller: false,
+  },
+
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "51",
+    name: "Women Zip-Front Relaxed Fit Jacket",
+    shortDesc: "A stylish relaxed fit jacket.",
+    longDesc:
+      "Lightweight with a zip front, perfect for layering during cooler weather.",
+    price: 320,
+    image: [p_img51],
+    category: "Women",
+    subCategory: "Winter wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716667345448,
+    bestseller: false,
+  },
+  {
+    rating: 4,
+    reviewCount: 453,
+    _id: "52",
+    name: "Men Zip-Front Relaxed Fit Jacket",
+    shortDesc: "A stylish relaxed fit jacket.",
+    longDesc:
+      "Lightweight with a zip front, perfect for layering during cooler weather.",
+    price: 320,
+    image: [p_img52],
+    category: "Men",
+    subCategory: "Top wear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716667345448,
+    bestseller: false,
+  },
+];
